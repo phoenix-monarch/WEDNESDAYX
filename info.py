@@ -53,7 +53,7 @@ NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/bdc51cbaf7458798b54c9.
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/66af0822f2292fb5436d9.jpg")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/4c4a1fd6d1b8c7ca6f91d.jpg")
 MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/339ceb88d52f594b71426.mp4")
 
 
@@ -93,7 +93,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/weebs_chats")
+S_GROUP = environ.get('S_GROUP',"https://t.me/weebs_support")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/team_netflix")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/everytype_movies")
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴄʜᴇᴄᴋ ᴀɴᴅ ᴛʀʏ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇs')
